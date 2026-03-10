@@ -1,0 +1,126 @@
+[
+  {
+    "id": 0,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "snapshotTitle": "Code assistant changes for: 这个应用中，删除，复制，和撤销按钮的大小没有统一，请修改一下。",
+      "done": {}
+    },
+    "createdTimestamp": 1764230835952,
+    "doneTimestamp": 1764230835952
+  },
+  {
+    "id": 1,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "done": {}
+    },
+    "createdTimestamp": 1764230958850,
+    "doneTimestamp": 1764230958850
+  },
+  {
+    "id": 2,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "done": {}
+    },
+    "createdTimestamp": 1764230968185,
+    "doneTimestamp": 1764230968185
+  },
+  {
+    "id": 3,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "done": {}
+    },
+    "createdTimestamp": 1764230975667,
+    "doneTimestamp": 1764230975667
+  },
+  {
+    "id": 4,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "done": {}
+    },
+    "createdTimestamp": 1764231183437,
+    "doneTimestamp": 1764231183437
+  },
+  {
+    "id": 5,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "done": {}
+    },
+    "createdTimestamp": 1764231302870,
+    "doneTimestamp": 1764231302870
+  },
+  {
+    "id": 6,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "done": {}
+    },
+    "createdTimestamp": 1764231522527,
+    "doneTimestamp": 1764231522527
+  },
+  {
+    "id": 7,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "done": {}
+    },
+    "createdTimestamp": 1764231555478,
+    "doneTimestamp": 1764231555478
+  },
+  {
+    "id": 8,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "snapshotTitle": "Loaded app",
+      "done": {}
+    },
+    "createdTimestamp": 1764231568253,
+    "doneTimestamp": 1764231568253
+  },
+  {
+    "id": 9,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "snapshotTitle": "Restored snapshot 2025年11月27日 16:09:23",
+      "done": {}
+    },
+    "createdTimestamp": 1764231573327,
+    "doneTimestamp": 1764231573327
+  },
+  {
+    "id": 10,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "snapshotTitle": "Restored snapshot 2025年11月27日 16:09:23",
+      "done": {}
+    },
+    "createdTimestamp": 1764231599929,
+    "doneTimestamp": 1764231599929
+  },
+  {
+    "id": 11,
+    "author": "user",
+    "payload": {
+      "type": "restored",
+      "done": {}
+    },
+    "createdTimestamp": 1764231625020,
+    "doneTimestamp": 1764231625020
+  }
+]
