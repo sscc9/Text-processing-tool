@@ -57,4 +57,4 @@ VITE_GEMINI_API_KEY=your_default_api_key_here
 
 ---
 
-*这是一个由 AI 辅助打造的演示/效率工具项目。*
+*这是一个由 AI 辅助打造的效率工具项目。*
