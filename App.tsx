@@ -419,6 +419,20 @@ export default function App() {
                   className="w-full px-3 py-2 bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:text-zinc-200"
                   placeholder="gpt-3.5-turbo"
                 />
+                <div className="flex flex-wrap gap-2 mt-2">
+                  <button
+                    onClick={() => setAiSettings({ ...aiSettings, modelId: 'deepseek-v4-pro' })}
+                    className="text-[10px] px-2 py-1 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded border border-zinc-200 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400 font-bold"
+                  >
+                    + DeepSeek V4 Pro
+                  </button>
+                  <button
+                    onClick={() => setAiSettings({ ...aiSettings, modelId: 'deepseek-v4-flash' })}
+                    className="text-[10px] px-2 py-1 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded border border-zinc-200 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400 font-bold"
+                  >
+                    + DeepSeek V4 Flash
+                  </button>
+                </div>
               </div>
             </div>
             <div className="px-6 py-4 bg-zinc-50 dark:bg-zinc-800/50 border-t border-zinc-100 dark:border-zinc-800 flex justify-end">

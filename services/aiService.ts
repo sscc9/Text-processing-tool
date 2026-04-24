@@ -39,20 +39,28 @@ export const runCustomAI = async (text: string, prompt: string, settings: AISett
 
     const url = `${baseUrl.replace(/\/$/, '')}/chat/completions`;
 
+    const isDeepSeekV4 = modelId.startsWith('deepseek-v4');
+    const body: any = {
+      model: modelId,
+      messages: [
+        { role: 'system', content: prompt },
+        { role: 'user', content: text }
+      ],
+      stream: false
+    };
+
+    if (isDeepSeekV4) {
+      body.thinking = { type: 'enabled' };
+      body.reasoning_effort = 'high';
+    }
+
     const response = await fetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${settings.apiKey}`
       },
-      body: JSON.stringify({
-        model: modelId,
-        messages: [
-          { role: 'system', content: prompt },
-          { role: 'user', content: text }
-        ],
-        stream: false // Using non-streaming for now, but request format is identical
-      })
+      body: JSON.stringify(body)
     });
 
     if (!response.ok) {
